@@ -1,0 +1,37 @@
+.documentWrapper{
+    width: 100%;
+    margin: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.documentWrapper span{
+    font-size: 12pt;
+    line-height: 107%;
+    font-family: "Times New Roman", serif;
+    color: black;
+    margin-bottom: 3px;
+}
+
+@media (max-width: 1200px) {
+    .documentWrapper{
+        margin: 100px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .documentWrapper{
+        margin: 80px 0;
+    }
+}
+@media (max-width: 768px) {
+    .documentWrapper{
+        margin: 60px 0;
+    }
+}
+@media (max-width: 576px) {
+    .documentWrapper{
+        margin: 40px 0;
+    }
+}

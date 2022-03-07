@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import UserInfoRu from "./UsersInfo/UserInfoRu";
+import UserInfoKg from "./UsersInfo/UserInfoKg";
+import FirstPointKG from "./FirstPoint/FirstPointKG";
+import FirstPointRu from "./FirstPoint/FirstPointRu";
+import PublicOfferRu from "./PublicOffer/PublicOfferRu";
+import PublicOfferKg from "./PublicOffer/PublicOfferKg";
+import PersonalInfoAndSubjectRu from "./PersonalInfoAndSubject/PersonalInfoAndSubjectRu";
+import PersonalInfoAndSubjectKg from "./PersonalInfoAndSubject/PersonalInfoAndSubjectKg";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <UserInfoRu/>
+        <UserInfoKg/>
+        <FirstPointRu/>
+        <FirstPointKG/>
+        <PublicOfferRu/>
+        <PublicOfferKg/>
+        <PersonalInfoAndSubjectRu/>
+        <PersonalInfoAndSubjectKg/>
     </div>
   );
 }

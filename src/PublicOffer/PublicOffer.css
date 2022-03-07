@@ -1,0 +1,53 @@
+.publicOffer {
+    width: 100%;
+    display: flex;
+    max-width: 794px;
+    flex-direction: column;
+}
+
+.publicOffer__title {
+    text-align: center;
+    width: 100%;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+.publicOffer__pointRow_point {
+    margin-right: 20px;
+}
+
+.publicOffer_minus {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.publicOffer__bolderRow{
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.firstPoint__bolderRowOutMarg{
+    font-weight: bolder;
+}
+
+@media (max-width: 1200px) {
+    .documentWrapper{
+        margin: 100px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .documentWrapper{
+        margin: 80px 0;
+    }
+}
+@media (max-width: 768px) {
+    .documentWrapper{
+        margin: 60px 0;
+    }
+}
+@media (max-width: 576px) {
+    .documentWrapper{
+        margin: 40px 0;
+    }
+}

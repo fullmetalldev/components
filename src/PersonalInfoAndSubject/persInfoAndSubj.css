@@ -1,0 +1,34 @@
+.personalInfoAndSubj{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 794px;
+}
+
+.personalInfoAndSubj__mainBoldTitle{
+    font-weight: bolder;
+    text-align: center;
+}
+.personalInfoAndSubj__rowWthLine{
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.personalInfoAndSubj__staples{
+    text-align: center;
+}
+.personalInfoAndSubj__rows{
+    display: flex;
+    column-gap: 5px;
+
+}
+.personalInfoAndSubj__rows_mark{
+    margin-left: 20px;
+}
+.personalInfoAndSubj__rows_minus{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.personalInfoAndSubj__num{
+    margin-right: 30px;
+}
