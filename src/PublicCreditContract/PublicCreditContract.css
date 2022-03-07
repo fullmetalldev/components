@@ -1,0 +1,31 @@
+.publicCreditContract{
+    display: flex;
+    width: 100%;
+    max-width: 794px;
+    flex-direction: column;
+}
+
+.publicCreditContract__mainTitle{
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+}
+
+.publicCreditContract__bolderTitle{
+    font-weight: bolder;
+}
+
+.publicCreditContract span{
+    font-family: "Times New Roman", sans-serif;
+    white-space: pre-wrap;
+}
+.publicCreditContract p{
+    font-family: "Times New Roman", sans-serif;
+    white-space: pre-wrap;
+}
+.publicCreditContract__bolderTitleTwo{
+
+    font-weight: bolder;
+    white-space: pre-wrap;
+    margin-top: 8px;
+}

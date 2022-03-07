@@ -1,5 +1,4 @@
 import React from 'react';
-import "./docStyles.css"
 import "./PublicOffer.css";
 
 const PublicOfferKg = () => {

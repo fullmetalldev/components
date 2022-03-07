@@ -1,5 +1,4 @@
 import React from 'react';
-import "./docStyles.css"
 import "./firstPoint.css"
 
 const FirstPointRu = () => {
